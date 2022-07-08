@@ -1,0 +1,31 @@
+.detail-container {
+  margin-left: 2%;
+  margin-top: 8%;
+
+  .detail-head {
+    text-align: left;
+  }
+  .container-div {
+    margin: 4%;
+    display: flex;
+  }
+  .label-div {
+    width: 40%;
+    float: left;
+    text-align: left;
+  }
+  .status{
+    height: 0.5rem;
+    width: 0.5rem;
+    margin-right: 0.375rem;
+    border-radius: 50%;
+    display: inline-block;
+    &.dead {
+      background-color: red;
+    }
+    &.alive {
+      background: green;
+    }
+  }
+  
+}
